@@ -41,6 +41,9 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from "./song4.mp3"
+import song5 from "./God_Of_War_-_Bella__Official_Music_Video__Prod_By_Team_FAKEBASS(128kbps).mp3";
+import song6 from "./Eminem_-_Lose_Yourself_[HD](256kbps).mp3"
 
 export const assets = {
     bell_icon,
@@ -117,19 +120,19 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Everybody Gonna Die",
+        name: "Everybody Die",
         image: img1,
         file:song1,
         desc:"jcole cold-world",
-        duration:"3:00"
+        duration:"2:45"
     },
     {
         id:1,
-        name: "Everybody Gonna Die",
+        name: "Everybody Die",
         image: img2,
         file:song2,
         desc:"jcole cold-world",
-        duration:"2:20"
+        duration:"3:42"
     },
     {
         id:2,
@@ -137,29 +140,29 @@ export const songsData = [
         image: img3,
         file:song3,
         desc:"Uniq Poet-kaloo",
-        duration:"2:32"
+        duration:"2:38"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "agar tum sath",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song4,
+        desc:" FULL AUDIO Song from Bollywood movie Tamasha starring Ranbir Kapoor ",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "God of war",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        file:song5,
+        desc:"GOD OF WAR - M ZEE BELLA (official audio)2020",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
+        name: "Lose Yourself",
+        image: img6   ,
+        file:song6,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
